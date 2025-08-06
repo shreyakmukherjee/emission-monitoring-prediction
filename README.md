@@ -210,9 +210,65 @@ This work demonstrates the effectiveness of **recurrent deep learning models** i
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Execute This Project
+
+Follow the steps below to clone and run this project on your machine:
+
+---
+
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/aqi-forecasting-deep-learning.git
-cd aqi-forecasting-deep-learning
+git clone https://github.com/shreyakmukherjee/emission-monitoring-prediction.git
+cd emission-monitoring-prediction
+```
+
+### 2️⃣ Install Required Libraries
+
+Ensure you have **Python 3.8+** installed. Then install all required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+✅ The requirements.txt includes all necessary packages such as:
+torch, sklearn, matplotlib, seaborn, pandas, numpy, etc.
+
+### 3️⃣ Prepare the Dataset
+
+📂 Place your dataset file (e.g., `emission_data.csv`) in the `data/` directory.  
+🛠️ If your file is named differently or located elsewhere, update the file path in the notebook/script accordingly.
+
+---
+
+### 4️⃣ Run the Jupyter Notebook
+
+Launch the notebook using **Jupyter** or your preferred environment:
+
+```bash
+jupyter notebook emission_forecasting.ipynb
+```
+
+📊 This notebook performs:
+
+- Data preprocessing
+- Training Transformer-based models
+- Visualization of AQI predictions and errors
+
+---
+
+## 🙌 Acknowledgements
+
+📊 Dataset by [Mateusz Buda on Kaggle](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)  
+⚙️ Frameworks: **PyTorch**, **Albumentations**, **timm**, **torchvision**  
+💻 CUDA for GPU acceleration
+
+---
+
+## 📬 Contact
+
+**Shreyak Mukherjee**  
+📧 shreyakmukherjeedgp@gmail.com  
+📍 Durgapur, West Bengal  
+🔗 [LinkedIn](https://www.linkedin.com/in/shreyak-mukherjee-203558275/)
+
